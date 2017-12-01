@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+toolbar{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background: #34495e;
+    box-shadow: 0 0 5px #000;
+}
+toolbar i{
+    color: #fff;
+    padding: 3vh;
+}
+toolbar span{
+    color: #fff;
+    font-weight: bold;
+}
+
+#menu{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+#menu .main-menu{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background: #34495e;
+    box-shadow: 0 0 15px #000;
+}
+#menu .main-menu #avatar{
+    background-image: url("../images/avatar.jpg");
+    background-size: 100% auto;
+    width: 30vw;
+    height: 30vw;
+    margin: 10vw 20vw ;
+    margin-bottom: 5vw;
+    border-radius: 100vw;
+    border: 2px solid #fff;
+}
+#menu .main-menu #my_name{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    border-bottom: 1px solid #cccccc;
+}
+#menu #right_menu{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.body{
+    background: #cccccc;
+    overflow-x: hidden;
+    padding-top: 10vh;
+    width: 100vw;
+    height: 100vh;
+}
+.body #img_plate{
+    border: 5px solid #fff;
+    border-radius: 100vw;
+    height: 80vw;
+    background-image: url("../images/image_1.jpg");
+    background-size: 100% auto;
+    width: 80vw;
+    margin: 10vw;
+}
+.control{
+text-align: center;
+    box-shadow: 0 0 5px #000;
+    width: 100%;
+    background: #34495e;
+    position: fixed;
+    bottom: 0;
+}
+.control i{
+    vertical-align:middle;
+    display: inline-block;
+    color: #fff;
+    padding: 4vh;
+}
+.control #backward{
+
+}
